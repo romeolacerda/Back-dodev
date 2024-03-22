@@ -11,7 +11,7 @@ app.get("/alunos", (req, res) => {
 });
 
 //responsavel por pegar um aluno
-app.get("/alunos/:id/:outro", (req, res) => {
+app.get("/alunos/:id/:nome", (req, res) => {
   console.log(req.params.id);
   console.log(req.params.outro);
   console.log("entrou no alunos");
